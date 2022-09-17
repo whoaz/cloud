@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="com.yida.cloud.controller.OrderController" />
+    <option name="method" value="order" />
+    <option name="module" value="shop-order" />
+    <option name="originUrl" value="/order/prod/{pid}" />
+    <option name="pathParamMap">
+      <map>
+        <entry key="pid">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="url" value="/order/prod/1" />
+  </component>
+</project>

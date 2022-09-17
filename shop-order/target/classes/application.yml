@@ -1,0 +1,21 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: service-order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.199/shop?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        dialect:
+            storage_engine: innodb
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
